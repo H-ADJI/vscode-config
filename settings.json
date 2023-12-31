@@ -1,0 +1,44 @@
+{
+    // activate env on every new terminal
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Cousine Nerd Font",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#252f38",
+        "terminal.foreground": "#dadada",
+        "terminalCursor.background": "#A8A19F",
+        "terminalCursor.foreground": "#A8A19F",
+        "terminal.ansiBlack": "#969696",
+        "terminal.ansiBlue": "#40aae7",
+        "terminal.ansiBrightBlack": "#766E6B",
+        "terminal.ansiBrightBlue": "#407EE7",
+        "terminal.ansiBrightCyan": "#3D97B8",
+        "terminal.ansiBrightGreen": "#7B9726",
+        "terminal.ansiYellow": "#C38418"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 15,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "120"
+    ],
+    "ruff.lint.args": [
+        "--line-length",
+        "120"
+    ],
+    "editor.formatOnSave": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false
+}
